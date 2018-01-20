@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    margin: 0;
+    padding: 10vh 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-card {
+    height: 80vh;
+    width: 20vw;
+    box-sizing: border-box;
+    border: solid black 20px; 
+    background-color: white;
+}
+
+.player, .score {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    background-color: rgb(82, 186, 179);
+    border-radius: 6px; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 80%;
+    cursor: pointer;
+}
+
+.dice {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 80%;
+}
+
+.rating {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.prompt {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#done1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ratingButton {
+    margin-top: 20px;
+}
